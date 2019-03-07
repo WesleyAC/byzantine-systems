@@ -20,7 +20,7 @@ function getRandomInt(min, max) {
 }
 
 var birds = []
-for (var i = 0; i < 2500; i++) {
+for (var i = 0; i < (canvas.width*canvas.height)/750; i++) {
 	var x = getRandomInt(0, canvas.width);
 	var y = getRandomInt(0, canvas.height);
 	// bad random
